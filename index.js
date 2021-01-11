@@ -1,4 +1,4 @@
-var thumbnailer = new Worker('worker.js');
+var thumbnailer = new Worker('gdal/worker.js');
 
 var map = L.map('leaflet').setView([0,0],3);
 
